@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-77fac85e","path":"/csharp/csp_base/cspbase29.html","title":"根据typeName获取Type较为完备的办法","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1690944457000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase29.md"}');export{e as data};

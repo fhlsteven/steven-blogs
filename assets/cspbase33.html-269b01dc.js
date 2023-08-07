@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-22a87950","path":"/csharp/csp_base/cspbase33.html","title":"关于使用for循环","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691118469000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase33.md"}');export{a as data};

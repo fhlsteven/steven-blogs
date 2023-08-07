@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-b05015f6","path":"/csharp/csp_base/cspbase5.html","title":"用C#做简单的信息过滤","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1690944457000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase5.md"}');export{a as data};

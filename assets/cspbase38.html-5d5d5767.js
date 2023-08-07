@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-1198031a","path":"/csharp/csp_base/cspbase38.html","title":"不知道是惊喜还是郁闷","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691118469000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase38.md"}');export{a as data};
