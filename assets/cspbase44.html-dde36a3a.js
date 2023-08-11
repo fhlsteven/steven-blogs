@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-2546d738","path":"/csharp/csp_base/cspbase44.html","title":"异步调用","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691402479000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase44.md"}');export{a as data};
