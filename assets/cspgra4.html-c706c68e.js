@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-177c7b43","path":"/csharp/csp_base/csp_gra/cspgra4.html","title":"实现Interface的方法不能使用static修饰符","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1692693840000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/csp_gra/cspgra4.md"}');export{a as data};
