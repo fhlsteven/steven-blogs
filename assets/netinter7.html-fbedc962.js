@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-69054227","path":"/csharp/net_code/net_inter/netinter7.html","title":"利用.net发送电子邮件","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693462697000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":2}]},"filePathRelative":"csharp/net_code/net_inter/netinter7.md"}');export{t as data};
