@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-291738cc","path":"/csharp/pts/pts21.html","title":"从Window系统托盘控制Windows服务","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693904866000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/pts/pts21.md"}');export{t as data};

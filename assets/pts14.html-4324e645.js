@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-88a69b94","path":"/csharp/pts/pts14.html","title":"这样的程序怎样关(线程)","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693904866000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/pts/pts14.md"}');export{t as data};
