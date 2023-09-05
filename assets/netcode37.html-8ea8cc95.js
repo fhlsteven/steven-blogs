@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4d214008","path":"/csharp/net_code/netcode37.html","title":"利用c#制作简单的留言板","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693878060000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/net_code/netcode37.md"}');export{e as data};
