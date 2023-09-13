@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-67a63abe","path":"/csharp/folder/folder8.html","title":"基本操作","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694593434000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/folder/folder8.md"}');export{e as data};

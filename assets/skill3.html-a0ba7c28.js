@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-009a2caa","path":"/csharp/skill/skill3.html","title":"中关村：挖人难留人更难","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694574434000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/skill/skill3.md"}');export{a as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-71e34e78","path":"/csharp/folder/folder5.html","title":"由文件名获取文件图标（原码）","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694593434000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/folder/folder5.md"}');export{e as data};

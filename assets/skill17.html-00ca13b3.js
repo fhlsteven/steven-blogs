@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-95f83a62","path":"/csharp/skill/skill17.html","title":"c#开发windows应用程序几个小技巧","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694574434000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/skill/skill17.md"}');export{t as data};

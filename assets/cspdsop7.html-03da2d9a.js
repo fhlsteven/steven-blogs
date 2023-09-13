@@ -1,0 +1,1 @@
+const s=JSON.parse('{"key":"v-2b632602","path":"/csharp/csp_base/csp_dsop/cspdsop7.html","title":"判断一个整数是否是对称数","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691402479000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/csp_dsop/cspdsop7.md"}');export{s as data};

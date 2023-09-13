@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-46a4dcc6","path":"/csharp/multi_media/mm3.html","title":"C#写的五子棋程序","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693889293000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/multi_media/mm3.md"}');export{t as data};

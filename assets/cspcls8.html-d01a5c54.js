@@ -1,0 +1,1 @@
+const s=JSON.parse('{"key":"v-5653773f","path":"/csharp/csp_base/csp_cls/cspcls8.html","title":"讲解C#的Namespace","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691726756000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/csp_cls/cspcls8.md"}');export{s as data};

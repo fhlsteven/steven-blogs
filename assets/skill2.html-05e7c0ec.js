@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-023557ea","path":"/csharp/skill/skill2.html","title":"谁来关怀程序员？","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694574434000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/skill/skill2.md"}');export{t as data};

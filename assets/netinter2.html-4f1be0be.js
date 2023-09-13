@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-607d070c","path":"/csharp/net_code/net_inter/netinter2.html","title":"用程序来代替IIS打开ASP.NET","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1692871427000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/net_code/net_inter/netinter2.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-9666edba","path":"/csharp/skill/summary/summary17.html","title":"也谈面向对象","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694574434000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/skill/summary/summary17.md"}');export{a as data};

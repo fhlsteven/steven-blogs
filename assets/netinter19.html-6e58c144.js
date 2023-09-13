@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ec677da8","path":"/csharp/net_code/net_inter/netinter19.html","title":"一个扩充拨号类","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693462697000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/net_code/net_inter/netinter19.md"}');export{e as data};
