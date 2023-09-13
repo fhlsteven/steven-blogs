@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-9348524e","path":"/csharp/csp_base/cspbase21.html","title":"随机数的使用","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1690944457000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase21.md"}');export{e as data};

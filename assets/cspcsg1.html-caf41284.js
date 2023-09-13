@@ -1,1 +1,0 @@
-const s=JSON.parse('{"key":"v-f54d1b74","path":"/csharp/csp_base/csp_csg/cspcsg1.html","title":".NET建议使用的大小写命名原则","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1692871427000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":2}]},"filePathRelative":"csharp/csp_base/csp_csg/cspcsg1.md"}');export{s as data};

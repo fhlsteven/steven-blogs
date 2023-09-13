@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-67506988","path":"/csharp/net_code/net_inter/netinter6.html","title":"在WinForm程序中嵌入ASP.NET","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1692871427000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/net_code/net_inter/netinter6.md"}');export{t as data};

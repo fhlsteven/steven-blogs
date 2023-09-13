@@ -1,9 +1,0 @@
-import{_ as o,o as e,c as t,a as n}from"./app-57d1f7b1.js";const c={},r=n(`<h1 id="如何用c-实现ie浏览器菜单的屏蔽" tabindex="-1"><a class="header-anchor" href="#如何用c-实现ie浏览器菜单的屏蔽" aria-hidden="true">#</a> 如何用c#实现IE浏览器菜单的屏蔽</h1><div class="language-txt" data-ext="txt"><pre class="language-txt"><code>主　　题：  如何用c#实现IE浏览器菜单的屏蔽？
-作　　者：  zhangxuanbird (张轩)  
-等　　级：
-信 誉 值：  100
-所属论坛：  .NET技术 C#
-问题点数：  50
-回复次数：  4
-发表时间：  2003-3-18 3:23:11
-</code></pre></div><p>问题应该不难，对于高手来说，所以给了50分，请各位大侠作答</p><hr><hr><p>回复人： saucer(思归, MS .NET MVP) ( 五星(高级)) 信誉：315 2003-3-18 3:46:54 得分:30</p><blockquote><p>C# runs on the server side, it has control of the browser on the client side<br> use javascript to open a window with no menubar:<br><code>window.open(&quot;youraspx.aspx&quot;,&quot;WinName&quot;,&quot;menubar=no&quot;);</code><br> or<br><code>window.open(&quot;Sample.htm&quot;,null,</code><br>     <code>&quot;height=200,width=400,status=no,toolbar=no,menubar=no,location=no&quot;);</code></p></blockquote><p>回复人： saucer(思归, MS .NET MVP) ( 五星(高级)) 信誉：315 2003-3-18 3:53:28 得分:0</p><blockquote><p>if you mean in Winform, try set its MenuBar property to false, see<br> http://www.c-sharpcorner.com/Code/2002/Aug/UsingWithEvents.asp</p></blockquote><p>回复人： cocosoft(pengyun) ( 一星(中级)) 信誉：111 2003-3-18 9:13:47 得分:0</p><blockquote><p>同上。<br> http://www.c-sharpcorner.com/Code/2002/Aug/UsingWithEvents.asp</p></blockquote><p>回复人： yinwu2003(鹦鹉) ( 三级(初级)) 信誉：102 2003-3-18 9:25:33 得分:20</p><blockquote><p><code>window.open(&quot;Sample.htm&quot;,null,</code><br>     <code>&quot;height=200,width=400,status=no,toolbar=no,menubar=no,location=no&quot;);</code></p></blockquote><p>该问题已经结贴 ，得分记录： saucer (30)、 yinwu2003 (20)、</p>`,14),a=[r];function u(s,i){return e(),t("div",null,a)}const d=o(c,[["render",u],["__file","netinter9.html.vue"]]);export{d as default};

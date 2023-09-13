@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-00683bb5","path":"/csharp/csp_base/csp_me/cspme4.html","title":"使用delegate类型设计自定义事件","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1692336409000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/csp_me/cspme4.md"}');export{e as data};

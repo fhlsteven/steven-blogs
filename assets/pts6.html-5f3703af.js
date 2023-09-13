@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-ca81b67a","path":"/csharp/pts/pts6.html","title":"windows服务安装类代码","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693904866000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/pts/pts6.md"}');export{t as data};

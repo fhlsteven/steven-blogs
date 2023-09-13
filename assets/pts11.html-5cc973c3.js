@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-92e3af4e","path":"/csharp/pts/pts11.html","title":"在.NET环境写编写和注册Windws Service","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693904866000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/pts/pts11.md"}');export{t as data};

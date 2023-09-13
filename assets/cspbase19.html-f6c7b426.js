@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-e1c73ee0","path":"/csharp/csp_base/cspbase19.html","title":"C#数学运算类","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1690944457000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase19.md"}');export{e as data};

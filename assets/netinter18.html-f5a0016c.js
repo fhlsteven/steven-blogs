@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-efd12ee6","path":"/csharp/net_code/net_inter/netinter18.html","title":"如何在C#程序中通过modem拨号上网,并且随时能够判断是否已联网？","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693462697000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/net_code/net_inter/netinter18.md"}');export{e as data};

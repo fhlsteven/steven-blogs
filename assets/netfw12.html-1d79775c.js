@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-6f5d48e8","path":"/csharp/net_framework/netfw12.html","title":".Net 是未来的趋势, 为什么?","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1692871427000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/net_framework/netfw12.md"}');export{e as data};

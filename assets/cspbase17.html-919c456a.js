@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-e89aa15c","path":"/csharp/csp_base/cspbase17.html","title":"C#轻松解决世纪迷题    hadelu（原作）","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1690944457000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase17.md"}');export{a as data};

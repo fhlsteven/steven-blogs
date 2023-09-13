@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-2ce58d0a","path":"/csharp/csp_base/cspbase30.html","title":"如何调用只有私有构造函数的类","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1690944457000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase30.md"}');export{a as data};

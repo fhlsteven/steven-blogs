@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-96b2038c","path":"/csharp/csp_base/cspbase20.html","title":"Console输出彩色字体(源码)","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1690944457000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase20.md"}');export{e as data};

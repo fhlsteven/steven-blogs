@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-86e1c1e6","path":"/csharp/net_code/net_soc/netsoc1.html","title":"Socket,好像也挺简单,可是,真够烦","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693462697000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/net_code/net_soc/netsoc1.md"}');export{e as data};

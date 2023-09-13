@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-297bdbcc","path":"/csharp/csp_base/cspbase31.html","title":"关于for和foreach，兼顾效率与安全","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1690944457000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/csp_base/cspbase31.md"}');export{a as data};
