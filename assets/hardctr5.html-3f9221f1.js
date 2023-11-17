@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-274870f2","path":"/csharp/sys_ctr/hard_ctr/hardctr5.html","title":"C#中实现改变显示器的分辨率(原码)","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/hard_ctr/hardctr5.md"}');export{t as data};

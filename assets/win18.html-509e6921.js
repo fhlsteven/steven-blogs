@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-79ca82a0","path":"/csharp/progm_if/win/win18.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695361066000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/progm_if/win/win18.md"}');export{t as data};

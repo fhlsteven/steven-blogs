@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-03cc8183","path":"/csharp/safe/safe6.html","title":"检测是否还有黑客代码的asp.net函数","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694762333000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/safe/safe6.md"}');export{a as data};

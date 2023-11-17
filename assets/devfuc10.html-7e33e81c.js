@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-777b64e4","path":"/pm/devfuc/devfuc10.html","title":"软件开发项目指标","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"参考文献","slug":"参考文献","link":"#参考文献","children":[]}],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/devfuc/devfuc10.md"}');export{e as data};

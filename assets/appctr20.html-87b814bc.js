@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-37f3b080","path":"/csharp/app_ctr/appctr20.html","title":"设置应用程序的热键","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695196099000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/app_ctr/appctr20.md"}');export{t as data};

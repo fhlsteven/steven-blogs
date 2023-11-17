@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-373821ca","path":"/csharp/tool_box/dg/dg40.html","title":"DataGrid控件通用打印类","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695894389000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/tool_box/dg/dg40.md"}');export{t as data};

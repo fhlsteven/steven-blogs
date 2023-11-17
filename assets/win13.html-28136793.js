@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-71424785","path":"/csharp/progm_if/win/win13.html","title":"窗体间传值和窗体间互操作","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695361066000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/progm_if/win/win13.md"}');export{t as data};

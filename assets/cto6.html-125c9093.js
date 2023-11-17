@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7136d3b7","path":"/pm/cto/cto6.html","title":"51CTO的传奇:40分钟拿下1000万的启动投资","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/cto/cto6.md"}');export{t as data};

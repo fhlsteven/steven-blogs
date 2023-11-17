@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5c9e97f8","path":"/csharp/safe/encdec/encdec1.html","title":"一个简单的加密/解密类","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694762333000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/safe/encdec/encdec1.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-8d45ff8e","path":"/csharp/app_ctr/appctr16.html","title":"Form问题,form间的跳转","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695196099000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/app_ctr/appctr16.md"}');export{t as data};

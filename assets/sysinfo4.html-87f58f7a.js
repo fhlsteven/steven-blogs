@@ -1,0 +1,1 @@
+const s=JSON.parse('{"key":"v-2bef98c0","path":"/csharp/sys_ctr/sys_info/sysinfo4.html","title":"如何用C＃实时获取CPU利用率","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/sys_info/sysinfo4.md"}');export{s as data};

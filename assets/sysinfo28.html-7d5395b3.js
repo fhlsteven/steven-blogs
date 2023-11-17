@@ -1,0 +1,1 @@
+const s=JSON.parse('{"key":"v-09e8d990","path":"/csharp/sys_ctr/sys_info/sysinfo28.html","title":"取EXE或者DLL的运行文件所在目录","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/sys_info/sysinfo28.md"}');export{s as data};

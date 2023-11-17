@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-9dbf0566","path":"/csharp/vba/vba11.html","title":"关于文件读取得问题","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696729973000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/vba/vba11.md"}');export{a as data};

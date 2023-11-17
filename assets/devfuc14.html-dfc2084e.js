@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7e4ec760","path":"/pm/devfuc/devfuc14.html","title":"读极限编程有感(XP的四大价值)","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/devfuc/devfuc14.md"}');export{e as data};

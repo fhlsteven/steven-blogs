@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-22b900f5","path":"/csharp/sys_ctr/sysctr23.html","title":"如何获得 WINDOWS 版本[C# 版]","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/sysctr23.md"}');export{t as data};

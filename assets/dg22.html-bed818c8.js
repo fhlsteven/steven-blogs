@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5e5546f4","path":"/csharp/tool_box/dg/dg22.html","title":"菜鸟问题！大家来帮忙！在DataGrid里如何统计一列的和？？","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695894389000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/tool_box/dg/dg22.md"}');export{t as data};

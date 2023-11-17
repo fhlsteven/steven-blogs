@@ -1,0 +1,1 @@
+const s=JSON.parse('{"key":"v-21b28506","path":"/csharp/sys_ctr/sys_info/sysinfo7.html","title":"使用C#返回系统特殊路径","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/sys_info/sysinfo7.md"}');export{s as data};

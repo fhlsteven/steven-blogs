@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-bdec0e2e","path":"/csharp/progm_if/win/win20.html","title":"一个不规则窗口界面的示例（原创）","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695361066000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/progm_if/win/win20.md"}');export{e as data};

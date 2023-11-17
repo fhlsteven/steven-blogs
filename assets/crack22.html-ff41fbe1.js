@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-ce64d7b2","path":"/csharp/safe/crack/crack22.html","title":"简单算法——Windows设置大师 2003 Build 0415","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694762333000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/safe/crack/crack22.md"}');export{a as data};

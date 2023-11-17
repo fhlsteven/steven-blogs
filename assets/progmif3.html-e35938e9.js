@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-a78ac902","path":"/csharp/progm_if/progmif3.html","title":"在Console中输出彩色字体（原码）","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695361066000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/progm_if/progmif3.md"}');export{t as data};

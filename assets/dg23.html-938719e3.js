@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5aeb95b6","path":"/csharp/tool_box/dg/dg23.html","title":"如何将DataGrid中的修改的数据，放到数据库中呢？","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695894389000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/tool_box/dg/dg23.md"}');export{t as data};

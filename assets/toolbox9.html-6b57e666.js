@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-a63f4752","path":"/csharp/tool_box/toolbox9.html","title":"webservice能传arraylist吗????webservice到底能传哪几种类型","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695894389000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/tool_box/toolbox9.md"}');export{t as data};

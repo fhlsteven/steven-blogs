@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ba86b27e","path":"/csharp/sys_ctr/file/file8.html","title":"在.NET中嵌入和使用资源文件","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/file/file8.md"}');export{e as data};

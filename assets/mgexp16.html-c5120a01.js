@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-56f13cf2","path":"/pm/cto/mgexp/mgexp16.html","title":"微软软件开发三宝","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/cto/mgexp/mgexp16.md"}');export{t as data};

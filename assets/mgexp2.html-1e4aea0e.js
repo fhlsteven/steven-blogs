@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-73ad9458","path":"/pm/cto/mgexp/mgexp2.html","title":"奖励与惩罚－－由质量管理想到的…","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/cto/mgexp/mgexp2.md"}');export{t as data};

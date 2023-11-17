@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7231ddca","path":"/pm/devfuc/devfuc4.html","title":"详细解述7个软件开发原则","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/devfuc/devfuc4.md"}');export{e as data};

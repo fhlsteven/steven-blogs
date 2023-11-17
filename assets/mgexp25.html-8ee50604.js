@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-07b8c429","path":"/pm/cto/mgexp/mgexp25.html","title":"管理有感","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/cto/mgexp/mgexp25.md"}');export{t as data};

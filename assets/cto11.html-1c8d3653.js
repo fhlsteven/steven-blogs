@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-a1e75036","path":"/pm/cto/cto11.html","title":"2009年软件架构师必须了解的十个新领域","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/cto/cto11.md"}');export{t as data};

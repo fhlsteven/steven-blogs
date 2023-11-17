@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5d9de53b","path":"/csharp/app_ctr/appctr9.html","title":"使程序只能够运行一个","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695196099000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/app_ctr/appctr9.md"}');export{t as data};

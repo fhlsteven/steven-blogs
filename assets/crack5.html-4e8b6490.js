@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-3eb78314","path":"/csharp/safe/crack/crack5.html","title":"谈谈VB程序的破解","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694762333000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/safe/crack/crack5.md"}');export{a as data};

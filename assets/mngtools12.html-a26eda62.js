@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1ad62e3c","path":"/pm/mngtools/mngtools12.html","title":"来自Rails世界的项目管理工具Redmine","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/mngtools/mngtools12.md"}');export{t as data};

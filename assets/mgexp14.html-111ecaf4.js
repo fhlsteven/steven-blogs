@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5dc49f6e","path":"/pm/cto/mgexp/mgexp14.html","title":"华为总裁管理幽默言录","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/cto/mgexp/mgexp14.md"}');export{e as data};

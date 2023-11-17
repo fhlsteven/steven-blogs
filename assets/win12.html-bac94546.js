@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6f8d6ee6","path":"/csharp/progm_if/win/win12.html","title":"窗体间传递复杂数据","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695361066000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/progm_if/win/win12.md"}');export{t as data};

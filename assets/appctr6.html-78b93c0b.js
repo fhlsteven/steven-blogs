@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-587f5b5e","path":"/csharp/app_ctr/appctr6.html","title":"如何点右上角关闭[X]执行其他操作","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695196099000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/app_ctr/appctr6.md"}');export{t as data};

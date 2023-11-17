@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5e546ad8","path":"/csharp/sys_ctr/hard_ctr/hardctr13.html","title":"C#怎样打开关闭CDROM?","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/hard_ctr/hardctr13.md"}');export{t as data};

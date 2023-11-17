@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5b2e8fd7","path":"/csharp/progm_if/win/win4.html","title":"关闭窗口后隐藏(重载关闭窗口)","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695361066000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/progm_if/win/win4.md"}');export{t as data};

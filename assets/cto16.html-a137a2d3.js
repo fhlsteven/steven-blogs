@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-90d6da00","path":"/pm/cto/cto16.html","title":"一个优秀it专家的成长历程－献给所有的颓废或即将颓废的人们","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/cto/cto16.md"}');export{t as data};

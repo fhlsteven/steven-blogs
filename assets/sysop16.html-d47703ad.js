@@ -1,0 +1,1 @@
+const s=JSON.parse('{"key":"v-6fae875a","path":"/csharp/sys_ctr/sys_op/sysop16.html","title":"直接把结果输出到打印机","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/sys_op/sysop16.md"}');export{s as data};

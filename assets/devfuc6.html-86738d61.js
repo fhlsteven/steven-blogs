@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6b5e7b4e","path":"/pm/devfuc/devfuc6.html","title":"项目管理方法新尝试","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/devfuc/devfuc6.md"}');export{e as data};

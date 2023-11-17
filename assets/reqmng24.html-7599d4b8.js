@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5aa59ac1","path":"/pm/reqmng/reqmng24.html","title":"业务流程不是需求","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1697609384000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/reqmng/reqmng24.md"}');export{e as data};

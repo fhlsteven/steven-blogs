@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-34ef35ea","path":"/csharp/sys_ctr/hard_ctr/hardctr1.html","title":"屏蔽CTRL-V","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/hard_ctr/hardctr1.md"}');export{t as data};

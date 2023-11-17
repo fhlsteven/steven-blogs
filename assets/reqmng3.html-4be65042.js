@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5f3e1c5c","path":"/pm/reqmng/reqmng3.html","title":"在需求采集时，如何对客户的需求进行分类","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1697609384000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/reqmng/reqmng3.md"}');export{e as data};

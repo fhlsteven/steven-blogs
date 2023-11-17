@@ -1,0 +1,1 @@
+const s=JSON.parse('{"key":"v-1def357c","path":"/csharp/sys_ctr/sys_op/sysop8.html","title":"C#代码关闭Windows XP","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/sys_op/sysop8.md"}');export{s as data};

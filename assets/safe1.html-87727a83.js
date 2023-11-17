@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-09777330","path":"/csharp/safe/safe1.html","title":"用Code Access Security技术来保护代码","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694762333000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/safe/safe1.md"}');export{e as data};

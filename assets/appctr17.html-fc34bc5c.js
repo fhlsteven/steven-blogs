@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-89dc4e50","path":"/csharp/app_ctr/appctr17.html","title":"C#如何实现两个WINFORM之间的访问","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695196099000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/app_ctr/appctr17.md"}');export{t as data};

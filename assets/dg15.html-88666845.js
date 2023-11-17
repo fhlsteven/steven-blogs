@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-bde4a9bc","path":"/csharp/tool_box/dg/dg15.html","title":"怎么使使dbgrid中的列标题居中？","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695894389000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/tool_box/dg/dg15.md"}');export{t as data};

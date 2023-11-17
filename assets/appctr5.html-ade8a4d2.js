@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-56ca82bf","path":"/csharp/app_ctr/appctr5.html","title":"让你的应用程序支持高对比度模式","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695196099000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/app_ctr/appctr5.md"}');export{t as data};

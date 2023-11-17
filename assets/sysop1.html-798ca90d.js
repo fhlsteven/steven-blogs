@@ -1,0 +1,1 @@
+const s=JSON.parse('{"key":"v-35d30e2e","path":"/csharp/sys_ctr/sys_op/sysop1.html","title":"在WIN2000下如何用C#改变系统日期时间--急（在线等待）","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/sys_op/sysop1.md"}');export{s as data};

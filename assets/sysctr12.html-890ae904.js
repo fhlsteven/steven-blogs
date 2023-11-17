@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-27c425d6","path":"/csharp/sys_ctr/sysctr12.html","title":"如何获得Windows的启动模式？","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695722425000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/sys_ctr/sysctr12.md"}');export{t as data};

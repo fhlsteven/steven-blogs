@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-b3aefa74","path":"/csharp/progm_if/win/win23.html","title":"在C#做的MDI子窗体chdfrm内点击按钮","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1695361066000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"csharp/progm_if/win/win23.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-72ebac56","path":"/pm/cto/cto7.html","title":"IT经理世界：走出技术","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1696831465000,"contributors":[{"name":"FHL","email":"1508727061@qq.com","commits":1}]},"filePathRelative":"pm/cto/cto7.md"}');export{t as data};
