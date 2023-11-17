@@ -1,0 +1,13 @@
+import{_ as s,o as n,c as a,a as t}from"./app-d9da1b6d.js";const e={},o=t(`<h1 id="如何得到我机器上所有正在运行的进程" tabindex="-1"><a class="header-anchor" href="#如何得到我机器上所有正在运行的进程" aria-hidden="true">#</a> 如何得到我机器上所有正在运行的进程</h1><blockquote><p>作者： 孟宪会 出自： 【孟宪会之精彩世界】 发布日期： 2003-6-15 9:04:56</p></blockquote><p>使用<code>System.Diagnostics</code>名称空间下的<code>static Process.GetProcesses()</code></p><div class="language-csharp" data-ext="cs"><pre class="language-csharp"><code><span class="token comment">// [C#]</span>
+Using System<span class="token punctuation">.</span>Diagnostics<span class="token punctuation">;</span>
+<span class="token range operator">..</span><span class="token punctuation">.</span>
+<span class="token keyword">foreach</span><span class="token punctuation">(</span><span class="token class-name">Process</span> p <span class="token keyword">in</span> Process<span class="token punctuation">.</span><span class="token function">GetProcesses</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token class-name"><span class="token keyword">string</span></span> s <span class="token operator">=</span> p<span class="token punctuation">.</span><span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// p.ProcessName //&lt;!--StartFragment--&gt;Console.WriteLine(p);</span>
+</code></pre></div><div class="language-vb" data-ext="vb"><pre class="language-vb"><code><span class="token comment">&#39; [VB.NET]</span>
+<span class="token keyword">Imports</span> System<span class="token punctuation">.</span>Diagnostics
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token keyword">Dim</span> p <span class="token keyword">As</span> Process
+<span class="token keyword">For</span> <span class="token keyword">Each</span> p <span class="token keyword">In</span> Process<span class="token punctuation">.</span>GetProcesses<span class="token punctuation">(</span><span class="token punctuation">)</span>
+Console<span class="token punctuation">.</span>WriteLine<span class="token punctuation">(</span>p<span class="token punctuation">)</span> <span class="token comment">&#39; string s = p.ToString()</span>
+<span class="token keyword">Next</span> p
+</code></pre></div>`,5),p=[o];function c(l,i){return n(),a("div",null,p)}const u=s(e,[["render",c],["__file","sysinfo9.html.vue"]]);export{u as default};

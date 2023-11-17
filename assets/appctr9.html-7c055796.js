@@ -1,0 +1,38 @@
+import{_ as n,o as s,c as a,a as t}from"./app-d9da1b6d.js";const p={},e=t(`<h1 id="使程序只能够运行一个" tabindex="-1"><a class="header-anchor" href="#使程序只能够运行一个" aria-hidden="true">#</a> 使程序只能够运行一个</h1><p>实现：</p><div class="language-csharp" data-ext="cs"><pre class="language-csharp"><code><span class="token keyword">using</span> <span class="token namespace">System<span class="token punctuation">.</span>Threading</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">System<span class="token punctuation">.</span>Runtime<span class="token punctuation">.</span>InteropServices</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">StructLayout</span><span class="token attribute-arguments"><span class="token punctuation">(</span>LayoutKind<span class="token punctuation">.</span>Sequential<span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SECURITY_ATTRIBUTES</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">int</span></span> nLength<span class="token punctuation">;</span>
+    <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">int</span></span> lpSecurityDescriptor<span class="token punctuation">;</span>
+    <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">int</span></span> bInheritHandle<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">System<span class="token punctuation">.</span>Runtime<span class="token punctuation">.</span>InteropServices<span class="token punctuation">.</span>DllImport</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">&quot;kernel32&quot;</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+<span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token keyword">extern</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">GetLastError</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">System<span class="token punctuation">.</span>Runtime<span class="token punctuation">.</span>InteropServices<span class="token punctuation">.</span>DllImport</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">&quot;kernel32&quot;</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+<span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token keyword">extern</span> <span class="token return-type class-name">IntPtr</span> <span class="token function">CreateMutex</span><span class="token punctuation">(</span><span class="token class-name">SECURITY_ATTRIBUTES</span> lpMutexAttributes<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">bool</span></span> bInitialOwner<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">string</span></span> lpName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">System<span class="token punctuation">.</span>Runtime<span class="token punctuation">.</span>InteropServices<span class="token punctuation">.</span>DllImport</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">&quot;kernel32&quot;</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+<span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token keyword">extern</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">ReleaseMutex</span><span class="token punctuation">(</span><span class="token class-name">IntPtr</span> hMutex<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token class-name"><span class="token keyword">int</span></span> ERROR_ALREADY_EXISTS <span class="token operator">=</span> <span class="token number">0183</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">STAThread</span></span><span class="token punctuation">]</span>
+<span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token class-name">IntPtr</span> hMutex<span class="token punctuation">;</span>
+    hMutex <span class="token operator">=</span> <span class="token function">CreateMutex</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token string">&quot;test&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">GetLastError</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">!=</span> ERROR_ALREADY_EXISTS<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        Application<span class="token punctuation">.</span><span class="token function">Run</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token constructor-invocation class-name">Form1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">else</span>
+    <span class="token punctuation">{</span>
+        MessageBox<span class="token punctuation">.</span><span class="token function">Show</span><span class="token punctuation">(</span><span class="token string">&quot;本程序只允许同时运行一个&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">ReleaseMutex</span><span class="token punctuation">(</span>hMutex<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div>`,3),o=[e];function c(u,l){return s(),a("div",null,o)}const i=n(p,[["render",c],["__file","appctr9.html.vue"]]);export{i as default};
