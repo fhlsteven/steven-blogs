@@ -1,0 +1,18 @@
+import{_ as a,o as n,c as s,a as t}from"./app-f0851ed3.js";const e={},p=t(`<h1 id="如何通过datagrid更改数据库中的内容" tabindex="-1"><a class="header-anchor" href="#如何通过datagrid更改数据库中的内容" aria-hidden="true">#</a> 如何通过DataGrid更改数据库中的内容</h1><div class="language-txt" data-ext="txt"><pre class="language-txt"><code>主　　题：  如何通过DataGrid更改数据库中的内容？
+作　　者：  zhangjinshui200 (望眼江湖)
+等　　级：  ^
+信 誉 值：  100
+所属论坛：  .NET技术 C#
+问题点数：  50
+回复次数：  7
+发表时间：  2003-11-26 15:18:46
+</code></pre></div><p>我用DataGrid显示从数据库中提取的数据信息，<br> 现在修改DataGrid中的数据内容，需要把修改得的<br> 内容，放回到数据库中，如何做呢？<br> 谢谢，等待！</p><hr><hr><p>回复人： ntlhcn(小陆) ( 一级(初级)) 信誉：100 2003-11-26 15:27:30 得分:10</p><blockquote><p><code>da.Update(dataSet1, &quot;Employees&quot;);</code><br> da 为SqlDataAdapter 实例</p></blockquote><p>回复人： liusuccess(减肥成功) ( 一级(初级)) 信誉：95 2003-11-26 15:29:24 得分:10</p><blockquote><p>绑定以后可以象楼上那样做</p></blockquote><p>回复人： hlj321(hlj321) ( 三级(初级)) 信誉：100 2003-11-26 15:31:33 得分:10</p><blockquote><p>只要SqlDataAdapter生成了insert和update、delete命令后即可使用update命令处理</p></blockquote><p>回复人： eyestrong(有时爱情图有虚名) ( 四级(中级)) 信誉：99 2003-11-26 15:32:04 得分:20</p><blockquote></blockquote><div class="language-csharp" data-ext="cs"><pre class="language-csharp"><code>DataGrid<span class="token punctuation">.</span>ReadOnly<span class="token operator">=</span><span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token comment">//如果您使用DataAdapter进行数据操作的话而且只指定了select命令的话请添加此句。</span>
+<span class="token class-name">SqlCommandBuilder</span> mySqlCommandBuilder <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">SqlCommandBuilder</span><span class="token punctuation">(</span>mySqlDataAdapter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//参数依次为数据集和相关的表。</span>
+mySqlDataAdapter<span class="token punctuation">.</span><span class="token function">Update</span><span class="token punctuation">(</span>myDataSet<span class="token punctuation">,</span> <span class="token string">&quot;Customers&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+myDataSet<span class="token punctuation">.</span><span class="token function">AcceptChanges</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>回复人： flystar2(天外飞星) ( 一级(初级)) 信誉：100 2003-11-26 15:48:44 得分:0</p><blockquote><p>把修改了的该行资料保存到一些变量里﹐然后把变量伟到后端的存储过程﹐在存储过程中修改数据﹐比如﹕</p></blockquote><div class="language-sql" data-ext="sql"><pre class="language-sql"><code><span class="token keyword">update</span> table1
+<span class="token keyword">set</span> id<span class="token operator">=</span><span class="token variable">@id</span><span class="token punctuation">,</span>name<span class="token operator">=</span><span class="token variable">@name</span>
+<span class="token keyword">where</span> …
+</code></pre></div><blockquote><p>也可以直接把SQL语句写在代码中﹐只是安全性差点。无论怎幺样﹐都需要在后端更新资料</p></blockquote><p>回复人： zhangjinshui200(望眼江湖) ( 一级(初级)) 信誉：100 2003-11-26 15:53:15 得分:0</p><blockquote><p>有一点，我不清楚。<br> 这是从DataSet往回写数据，<br> 现在我是从DataGrid往回写数据，<br> 怎么办呢？<br> 能够详细点吗？？（代码）<br> 非常谢谢！</p></blockquote><p>回复人： zhangjinshui200(望眼江湖) ( 一级(初级)) 信誉：100 2003-11-26 15:56:29 得分:0</p><blockquote><p>得到数据的过程如下：<br> 从一个函数中，或的数据集，将数据集绑定到dataGrid上面。<br><br> 现在，我是想从这个DataGrid中修改的数据，重新放到数据库中，<br> 不知道了。<br> 情况确实如此。</p></blockquote><p>该问题已经结贴 ，得分记录： ntlhcn (10)、 liusuccess (10)、 hlj321 (10)、 eyestrong (20)、</p>`,23),o=[p];function c(l,r){return n(),s("div",null,o)}const d=a(e,[["render",c],["__file","dg24.html.vue"]]);export{d as default};

@@ -1,0 +1,14 @@
+import{_ as n,o as s,c as a,a as t}from"./app-f0851ed3.js";const p={},o=t(`<h1 id="打开和关闭指定程序" tabindex="-1"><a class="header-anchor" href="#打开和关闭指定程序" aria-hidden="true">#</a> 打开和关闭指定程序</h1><p><strong>打开调用</strong>：</p><div class="language-csharp" data-ext="cs"><pre class="language-csharp"><code><span class="token comment">//方法1</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>process1<span class="token punctuation">.</span>StartInfo<span class="token punctuation">.</span>FileName<span class="token operator">=</span><span class="token string">&quot;Notepad.exe&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>process1<span class="token punctuation">.</span><span class="token function">Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//方法2</span>
+System<span class="token punctuation">.</span>Diagnostics<span class="token punctuation">.</span>Process<span class="token punctuation">.</span><span class="token function">Start</span><span class="token punctuation">(</span><span class="token string">&quot;Notepad.exe&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><strong>关闭</strong>：</p><div class="language-csharp" data-ext="cs"><pre class="language-csharp"><code><span class="token class-name">Process<span class="token punctuation">[</span><span class="token punctuation">]</span></span> myProcesses<span class="token punctuation">;</span>
+myProcesses <span class="token operator">=</span> Process<span class="token punctuation">.</span><span class="token function">GetProcessesByName</span><span class="token punctuation">(</span><span class="token string">&quot;Notepad&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">foreach</span> <span class="token punctuation">(</span><span class="token class-name">Process</span> instance <span class="token keyword">in</span> myProcesses<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    instance<span class="token punctuation">.</span><span class="token function">WaitForExit</span><span class="token punctuation">(</span><span class="token number">3000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    instance<span class="token punctuation">.</span><span class="token function">CloseMainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div>`,5),c=[o];function e(u,l){return s(),a("div",null,c)}const k=n(p,[["render",e],["__file","file5.html.vue"]]);export{k as default};

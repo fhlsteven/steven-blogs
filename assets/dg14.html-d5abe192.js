@@ -1,0 +1,33 @@
+import{_ as n,o as s,c as a,a as t}from"./app-f0851ed3.js";const p={},o=t(`<h1 id="如何使datagrid按钮列中的按钮按需要只显示其中一些-另一些不显示" tabindex="-1"><a class="header-anchor" href="#如何使datagrid按钮列中的按钮按需要只显示其中一些-另一些不显示" aria-hidden="true">#</a> 如何使DataGrid按钮列中的按钮按需要只显示其中一些，另一些不显示</h1><div class="language-txt" data-ext="txt"><pre class="language-txt"><code>主　　题：  如何使DataGrid按钮列中的按钮按需要只显示其中一些，另一些不显示
+作　　者：  zhl44 (zhangli)
+等　　级：  ^
+信 誉 值：  98
+所属论坛：  .NET技术 C#
+问题点数：  100
+回复次数：  4
+发表时间：  2003-9-29 22:18:44
+</code></pre></div><p>只有一个按钮列，但要根据需要显示其中的一些，另一些不显示，如何做？</p><hr><hr><p>回复人： supercdz(烟鬼,一天两包半) ( 四级(中级)) 信誉：100 2003-9-29 22:22:13 得分:50</p><blockquote><p><code>private void DataGrid1_ItemDataBound(object sender, System.Web.UI.WebControls.DataGridItemEventArgs e)</code>中</p></blockquote><div class="language-csharp" data-ext="cs"><pre class="language-csharp"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>Item<span class="token punctuation">.</span>Cells<span class="token punctuation">[</span><span class="token number">8</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Text <span class="token operator">!=</span> <span class="token string">&quot;编辑&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>Session<span class="token punctuation">[</span><span class="token string">&quot;StaffID&quot;</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">!=</span> e<span class="token punctuation">.</span>Item<span class="token punctuation">.</span>Cells<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Text<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token class-name">LinkButton</span> lb  <span class="token operator">=</span> <span class="token punctuation">(</span>LinkButton<span class="token punctuation">)</span>e<span class="token punctuation">.</span>Item<span class="token punctuation">.</span><span class="token function">FindControl</span><span class="token punctuation">(</span><span class="token string">&quot;LinkButton2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">null</span><span class="token operator">!=</span>lb<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            lb<span class="token punctuation">.</span>Visible <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+            lb<span class="token punctuation">.</span>Text <span class="token operator">=</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>回复人： zhl44(zhangli) ( 一级(初级)) 信誉：98 2003-9-29 22:41:02 得分:0</p><blockquote><p>LinkButton2 指的是什么？<br> 如果是pushbutton呢？</p></blockquote><p>回复人： kuangsha007(消息队列) ( 四级(中级)) 信誉：100 2003-9-29 23:03:09 得分:50</p><blockquote><p>linkbutton是你模板列里面的控件<br><br><code>private void DataGrid1_ItemDataBound(object sender, System.Web.UI.WebControls.DataGridItemEventArgs e)</code>中<br></p></blockquote><div class="language-csharp" data-ext="cs"><pre class="language-csharp"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>Item<span class="token punctuation">.</span>Cells<span class="token punctuation">[</span><span class="token number">8</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Text <span class="token operator">!=</span> <span class="token string">&quot;编辑&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>Session<span class="token punctuation">[</span><span class="token string">&quot;StaffID&quot;</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">!=</span> e<span class="token punctuation">.</span>Item<span class="token punctuation">.</span>Cells<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">.</span>Text<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token class-name">Button</span> lb  <span class="token operator">=</span> <span class="token punctuation">(</span>Button<span class="token punctuation">)</span>e<span class="token punctuation">.</span>Item<span class="token punctuation">.</span><span class="token function">FindControl</span><span class="token punctuation">(</span><span class="token string">&quot;Button&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">null</span><span class="token operator">!=</span>lb<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            lb<span class="token punctuation">.</span>Visible <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+            lb<span class="token punctuation">.</span>Text <span class="token operator">=</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>回复人： zhl44(zhangli) ( 一级(初级)) 信誉：98 2003-9-29 23:13:01 得分:0</p><blockquote><p>谢谢两位</p></blockquote><p>该问题已经结贴 ，得分记录： supercdz (50)、 kuangsha007 (50)、</p>`,16),e=[o];function c(u,l){return s(),a("div",null,e)}const k=n(p,[["render",c],["__file","dg14.html.vue"]]);export{k as default};

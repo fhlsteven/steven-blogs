@@ -1,0 +1,14 @@
+import{_ as n,o as s,c as a,a as t}from"./app-f0851ed3.js";const p={},o=t(`<h1 id="在c-程序中调用浏览器" tabindex="-1"><a class="header-anchor" href="#在c-程序中调用浏览器" aria-hidden="true">#</a> 在C#程序中调用浏览器</h1><blockquote><p>源作者：追风 人气：5837</p></blockquote><p>注：为讲述方便，我们以＂ＩＥ浏览器＂登陆到＂搜狐＂网站为例。</p><p><strong>实现原理</strong>：</p><p>我们可以通过在＂开始＂菜单中选则＂运行＂，然后在输入框中输入＂IEXPLORE http://www.sohu.com＂就可以登陆到＂搜狐＂网站的主页。</p><p>综上所述我们可以得知，ＩＥ流览器是一个单独的程序，它的程序名是IEXPLORE.EXE，它的第一个参数是网站的网址。所以我们只要在Ｃ＃程序中调用ＩＥ流览器程序并指定它的运行参数就可以实现这个功能，代码如下：</p><p><code>System.Diagnostics.Process.Start(&quot;IEXPLORE.EXE&quot;,&quot;http://www.sohu.com&quot;);</code></p><p>好了，千言万语不如一例。下面我给出相应的具体例子程序。<br> （编程语言：Visual Studio .NET C# (Beta 2)下调试通过。）</p><div class="language-csharp" data-ext="cs"><pre class="language-csharp"><code><span class="token keyword">using</span> <span class="token namespace">System</span><span class="token punctuation">;</span>
+<span class="token keyword">namespace</span> <span class="token namespace">CalledIE</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">class</span> <span class="token class-name">Class_Main</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> args<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token string">&quot;调用IE流览器登陆“搜狐”网站!&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//在流览器中打开 http://www.sohu.com 网站</span>
+            System<span class="token punctuation">.</span>Diagnostics<span class="token punctuation">.</span>Process<span class="token punctuation">.</span><span class="token function">Start</span><span class="token punctuation">(</span><span class="token string">&quot;IEXPLORE.EXE&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;http://jnjx.126.com&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>如果要调用别的浏览器只要把例子中的&quot;IEXPLORE.EXE&quot;改为其他的浏览器程序名既可。</p>`,10),c=[o];function e(u,l){return s(),a("div",null,c)}const k=n(p,[["render",e],["__file","file3.html.vue"]]);export{k as default};
